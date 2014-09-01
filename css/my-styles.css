@@ -1,0 +1,21 @@
+/* Layout
+=============================== */
+
+.container {
+  max-width: 1000px;
+}
+
+/* 
+=============================== */
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(90,90,90,1);
+}
+
+/* Jumbotron
+=============================== */
+.jumbotron {
+  text-align: center;
+}

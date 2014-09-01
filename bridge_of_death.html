@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charaset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guessing Number Bridge of Death</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/my-styles.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <header class="page-header">
+        <div align="middle">
+          <img class="img-responsive img-rounded" src='./img/bridgegorge.jpg' alt='The Bridge of Death'>
+        </div>
+      </header>
+
+      <div class="jumbotron">
+        <h1>Guess The Number</h1>
+        <p class="lead">Guess correctly to pass or be cast into the gorge of eternal peril!</p>
+
+        <div>
+          <input type="text" id='playerGuess' placeholder='Input A Number 1-100' />
+          <br>
+          <h3 id='result'>You will have <strike>3</strike> 5 guesses</h3>
+          <p id='guessCount'>5 Guesses Remaining</p>
+          <button type="submit" class="btn btn-primary" value="Submit">Submit Your Guess</button>
+        </div>
+        <hr>
+        <div>
+          <button type="submit" class="btn btn-info" value="Submit">Play Again</button>
+        </div>
+      </div>
+
+      <hr>
+      <div>
+        <p>&copy; 2014 Guess The Number - By Martin Butler</p>
+      </div>
+    </div>
+  </body>
