@@ -14,25 +14,25 @@
 
       <header class="page-header">
         <div align="middle">
-          <img class="img-responsive img-rounded" src='./img/bridgegorge.jpg' alt='The Bridge of Death'>
+          <img id='titleImage' class="img-responsive img-rounded" src='./img/bridgegorge.jpg' alt='The Bridge of Death'>
         </div>
       </header>
 
       <div class="jumbotron">
         <h1>Guess The Number</h1>
-        <p class="lead">Guess correctly to pass or be cast into the gorge of eternal peril!</p>
+        <p id='theLead' class="lead">Guess correctly to pass or be cast into the gorge of eternal peril!</p>
 
         <div>
           <input type="text" id='playerGuess' placeholder='Input A Number 1-100' />
           <br>
           <h3 id='result'>You will have <strike>3</strike> 5 guesses</h3>
           <p id='guessCount'>5 Guesses Remaining</p>
-          <button type="submit" class="btn btn-primary" value="Submit">Submit Your Guess</button>
+          <button id='checkGuess' type="submit" class="btn btn-primary" value="Submit">Submit Your Guess</button>
         </div>
         <hr>
         <div>
-          <button type="submit" class="btn btn-info" value="play_again">Play Again</button>
-          <button type="submit" class="btn btn-warning" value="give_hint">Perhaps a Hint</button>
+          <button id='playAgain' type="submit" class="btn btn-info" value="play_again">Play Again</button>
+          <button id='giveHint' type="submit" class="btn btn-warning" value="give_hint">Perhaps a Hint</button>
         </div>
       </div>
 
@@ -41,4 +41,7 @@
         <p>&copy; 2014 Guess The Number - By Martin Butler</p>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/application.js"></script>
   </body>
