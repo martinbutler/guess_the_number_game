@@ -44,6 +44,7 @@ $(document).ready(function(){
         gameOverHideAndShow();
         $('#titleImage').attr('src', './img/chicken.jpg');
         $('#theLead').text("Winner Winner! Chicken Dinner!");
+        return;
       } else if (difference <= 5 && difference > 0) {
         $('#result').text("You are very hot. Guess a little higher");
         historyMessage += currentGuess + " = Very Hot. ";
